@@ -29,15 +29,9 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>3.3.9</version>
+				<version>3.8.6</version>
 				<extensions>true</extensions>
 				<configuration>
-					<inclusions>
-						<inclusion>
-							<groupId>org.mule.modules</groupId>
-							<artifactId>mule-module-ldap</artifactId>
-						</inclusion>
-					</inclusions>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>${app.runtime}</muleVersion>
