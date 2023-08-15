@@ -32,6 +32,12 @@
 				<version>3.3.9</version>
 				<extensions>true</extensions>
 				<configuration>
+					<inclusions>
+						<inclusion>
+							<groupId>org.mule.modules</groupId>
+							<artifactId>mule-module-ldap</artifactId>
+						</inclusion>
+					</inclusions>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>${app.runtime}</muleVersion>
